@@ -2305,8 +2305,10 @@ $wgConf->settings += [
 			'globaluserpage',
 			'minervaneue',
 			'mobilefrontend',
+			'pageimages',
 			'purge',
 			'syntaxhighlight_geshi',
+			'textextracts',
 			'urlshortener',
 			'wikiseo',
 		],
@@ -4876,10 +4878,10 @@ $wgConf->settings += [
 		'default' => false,
 	],
 	'wgWikiSeoEnableAutoDescription' => [
-		'default' => false,
+		'default' => true,
 	],
 	'wgWikiSeoTryCleanAutoDescription' => [
-		'default' => false,
+		'default' => true,
 	],
 	'wgMetadataGenerators' => [
 		'default' => '',
